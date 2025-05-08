@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prime", "prime", "{AB564B66-292D-4851-AA35-6C01EB64C54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquidev.Prime.Test", "prime\Arquidev.Prime.Test\Arquidev.Prime.Test.csproj", "{D98ED09B-4B95-40A7-A995-1E11CECB418F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "orange", "orange", "{76649EAB-F7B1-4240-9C40-ACD1D10B2FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquidev.Orange.Test", "orange\Arquidev.Orange.Test\Arquidev.Orange.Test.csproj", "{B22A62E1-FBFC-4863-9A4C-7D1B72089191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stone", "stone", "{B82C13C6-CF5C-42AB-A57C-A32E51EAD6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquidev.Stone.Pkg", "stone\Arquidev.Stone.Pkg\Arquidev.Stone.Pkg.csproj", "{8C1FF057-31B5-4EC6-9F80-B92B47CCB508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98ED09B-4B95-40A7-A995-1E11CECB418F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98ED09B-4B95-40A7-A995-1E11CECB418F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98ED09B-4B95-40A7-A995-1E11CECB418F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98ED09B-4B95-40A7-A995-1E11CECB418F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22A62E1-FBFC-4863-9A4C-7D1B72089191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22A62E1-FBFC-4863-9A4C-7D1B72089191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22A62E1-FBFC-4863-9A4C-7D1B72089191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22A62E1-FBFC-4863-9A4C-7D1B72089191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1FF057-31B5-4EC6-9F80-B92B47CCB508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1FF057-31B5-4EC6-9F80-B92B47CCB508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1FF057-31B5-4EC6-9F80-B92B47CCB508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1FF057-31B5-4EC6-9F80-B92B47CCB508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D98ED09B-4B95-40A7-A995-1E11CECB418F} = {AB564B66-292D-4851-AA35-6C01EB64C54B}
+		{B22A62E1-FBFC-4863-9A4C-7D1B72089191} = {76649EAB-F7B1-4240-9C40-ACD1D10B2FEA}
+		{8C1FF057-31B5-4EC6-9F80-B92B47CCB508} = {B82C13C6-CF5C-42AB-A57C-A32E51EAD6FB}
+	EndGlobalSection
+EndGlobal

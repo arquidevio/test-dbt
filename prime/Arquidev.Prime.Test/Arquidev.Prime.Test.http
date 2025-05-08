@@ -1,0 +1,6 @@
+@Arquidev.Prime.Test_HostAddress = http://localhost:5032
+
+GET {{Arquidev.Prime.Test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

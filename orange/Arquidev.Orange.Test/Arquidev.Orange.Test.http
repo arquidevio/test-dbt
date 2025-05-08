@@ -1,0 +1,6 @@
+@Arquidev.Orange.Test_HostAddress = http://localhost:5095
+
+GET {{Arquidev.Orange.Test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
