@@ -9,12 +9,16 @@ open Arquidev.Dbt
 
 
 plan {
-    default_profile {
-        selector.node.image
-        selector.dotnet.image
+    profile {
+        selector {
+            required_when DotnetProject.isPublishable
+            ignored_when _.EndsWith("Test.csproj")
+            extend selector.defaults.dotnet.generic
+        }
     }
-    profile "nuget" {
-        selector.dotnet.nuget
+    profile {
+        id "nuget"
+        selector.defaults.dotnet.nuget
     }
 }
 
