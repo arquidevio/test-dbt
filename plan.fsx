@@ -12,7 +12,6 @@ plan {
     profile {
         selector {
             required_when DotnetProject.isPublishable
-            ignored_when _.EndsWith("Test.csproj")
             extend selector.defaults.dotnet.generic
         }
     }

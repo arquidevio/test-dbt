@@ -1,3 +1,10 @@
+
+using Arquidev.Stone.Pkg;
+
+var enumValue = Test.Orange;
+
+Console.WriteLine($"Test: {enumValue}");
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
