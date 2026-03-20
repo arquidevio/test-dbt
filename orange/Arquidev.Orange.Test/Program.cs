@@ -50,3 +50,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // v2
 // health check stub
 // end of orange v2 setup
+// shared infra v1

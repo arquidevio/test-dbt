@@ -49,3 +49,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // prime v2
 // health check stub
 // end of prime v2 setup
+// shared infra v1
