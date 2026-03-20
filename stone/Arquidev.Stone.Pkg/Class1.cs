@@ -21,3 +21,8 @@ public class DefaultStoneService : IStoneService
 {
     public string Process(string input) => input.Trim().ToUpper();
 }
+
+public static class StoneExtensions
+{
+    public static string ToStoneId(this string s) => s.ToLower().Replace(" ", "-");
+}
