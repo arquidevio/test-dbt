@@ -51,3 +51,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // end of prime v2 setup
 // shared infra v1
 // correlationId middleware placeholder
+// StoneEvent consumer

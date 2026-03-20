@@ -26,3 +26,5 @@ public static class StoneExtensions
 {
     public static string ToStoneId(this string s) => s.ToLower().Replace(" ", "-");
 }
+
+public record StoneEvent(string Type, string Payload);
