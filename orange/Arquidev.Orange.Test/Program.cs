@@ -55,3 +55,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // uses IStoneService
 // consumes StoneGrade
 // timeout aligned
+// pagination support

@@ -35,3 +35,9 @@ public class StoneRegistry
     public void Register(string item) => _items.Add(item);
     public IReadOnlyList<string> Items => _items;
 }
+
+public class StonePagination
+{
+    public int Page { get; set; } = 1;
+    public int PageSize { get; set; } = 20;
+}
