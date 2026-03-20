@@ -28,3 +28,10 @@ public static class StoneExtensions
 }
 
 public record StoneEvent(string Type, string Payload);
+
+public class StoneRegistry
+{
+    private readonly List<string> _items = new();
+    public void Register(string item) => _items.Add(item);
+    public IReadOnlyList<string> Items => _items;
+}
