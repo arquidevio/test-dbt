@@ -2,9 +2,7 @@
 #load "../dbt/fsx/plan.fsx"
 #load "../dbt/fsx/dotnet/project.fsx"
 
-
 open Arquidev.Dbt
-
 
 plan {
     profile {
@@ -20,4 +18,3 @@ plan {
 }
 
 |> Plan.evaluate
-|> fun x -> printfn "%A" x
