@@ -9,7 +9,7 @@ public class Class1
 public class StoneConfig
 {
     public int MaxRetries { get; set; } = 5;
-    public int TimeoutMs { get; set; } = 5000;
+    public int TimeoutMs { get; set; } = 3000;
 }
 
 public interface IStoneService

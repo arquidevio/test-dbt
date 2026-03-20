@@ -53,3 +53,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // correlationId middleware placeholder
 // StoneEvent consumer
 // StoneRegistry consumer
+// timeout aligned

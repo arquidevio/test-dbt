@@ -54,3 +54,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // correlationId middleware placeholder
 // uses IStoneService
 // consumes StoneGrade
+// timeout aligned
