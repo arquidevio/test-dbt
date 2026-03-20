@@ -9,3 +9,8 @@ public class StoneConfig
 {
     public int MaxRetries { get; set; } = 3;
 }
+
+public interface IStoneService
+{
+    string Process(string input);
+}
