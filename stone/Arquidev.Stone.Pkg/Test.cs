@@ -4,5 +4,6 @@ public enum Test
 {
     Prime,
     Orange,
+    Citrine,
     NotUsed
 }
