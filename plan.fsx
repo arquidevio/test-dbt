@@ -1,8 +1,6 @@
-#load "/work/dbt/fsx/types.fsx"
-#load "/work/dbt/fsx/plan.fsx"
-//#load "/work/dbt/fsx/dotnet/solution.fsx"
-#load "/work/dbt/fsx/dotnet/project.fsx"
-#load "/work/dbt/fsx/node/project.fsx"
+#load "../dbt/fsx/types.fsx"
+#load "../dbt/fsx/plan.fsx"
+#load "../dbt/fsx/dotnet/project.fsx"
 
 
 open Arquidev.Dbt
