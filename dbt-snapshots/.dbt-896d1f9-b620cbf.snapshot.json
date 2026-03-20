@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "896d1f94a65bcebc188cac957ead99f8c28167e3"
+    ],
+    "currentCommit": "b620cbf5f09721dbf10bb39cf2c67768cddd5141"
+  },
+  "changedDirs": {
+    "orange/Arquidev.Orange.Test": [
+      "orange/Arquidev.Orange.Test/Program.cs"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "orange/arquidev-orange-test",
+      "kind": "dotnet",
+      "fileName": "Arquidev.Orange.Test.csproj",
+      "relativePath": "orange/Arquidev.Orange.Test/Arquidev.Orange.Test.csproj",
+      "relativeDir": "orange/Arquidev.Orange.Test",
+      "dir": "Arquidev.Orange.Test",
+      "dirSlug": "arquidev-orange-test"
+    }
+  ]
+}

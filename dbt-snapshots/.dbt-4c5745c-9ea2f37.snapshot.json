@@ -1,0 +1,38 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "4c5745c78976b863b8e0028a9cf548e56cd5dfc7"
+    ],
+    "currentCommit": "9ea2f374cf84f3eb0ecebb429267a8358c58f1ee"
+  },
+  "changedDirs": {
+    "orange/Arquidev.Orange.Test": [
+      "orange/Arquidev.Orange.Test/Program.cs"
+    ],
+    "prime/Arquidev.Prime.Test": [
+      "prime/Arquidev.Prime.Test/Program.cs",
+      "prime/Arquidev.Prime.Test/appsettings.Development.json",
+      "prime/Arquidev.Prime.Test/appsettings.json"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "orange/arquidev-orange-test",
+      "kind": "dotnet",
+      "fileName": "Arquidev.Orange.Test.csproj",
+      "relativePath": "orange/Arquidev.Orange.Test/Arquidev.Orange.Test.csproj",
+      "relativeDir": "orange/Arquidev.Orange.Test",
+      "dir": "Arquidev.Orange.Test",
+      "dirSlug": "arquidev-orange-test"
+    },
+    {
+      "projectId": "prime/arquidev-prime-test",
+      "kind": "dotnet",
+      "fileName": "Arquidev.Prime.Test.csproj",
+      "relativePath": "prime/Arquidev.Prime.Test/Arquidev.Prime.Test.csproj",
+      "relativeDir": "prime/Arquidev.Prime.Test",
+      "dir": "Arquidev.Prime.Test",
+      "dirSlug": "arquidev-prime-test"
+    }
+  ]
+}

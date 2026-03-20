@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "4be9fc02710a9754effea9970c66ed952b6377ef"
+    ],
+    "currentCommit": "4b5d8b78efce6db2dac5d7180d7a65be6ea901d5"
+  },
+  "changedDirs": {
+    "prime/Arquidev.Prime.Test": [
+      "prime/Arquidev.Prime.Test/Program.cs"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "prime/arquidev-prime-test",
+      "kind": "dotnet",
+      "fileName": "Arquidev.Prime.Test.csproj",
+      "relativePath": "prime/Arquidev.Prime.Test/Arquidev.Prime.Test.csproj",
+      "relativeDir": "prime/Arquidev.Prime.Test",
+      "dir": "Arquidev.Prime.Test",
+      "dirSlug": "arquidev-prime-test"
+    }
+  ]
+}
