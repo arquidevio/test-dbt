@@ -16,3 +16,8 @@ public interface IStoneService
 {
     string Process(string input);
 }
+
+public class DefaultStoneService : IStoneService
+{
+    public string Process(string input) => input.ToUpper();
+}
