@@ -8,7 +8,7 @@ public class Class1
 
 public class StoneConfig
 {
-    public int MaxRetries { get; set; } = 3;
+    public int MaxRetries { get; set; } = 5;
     public int TimeoutMs { get; set; } = 5000;
 }
 
