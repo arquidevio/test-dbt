@@ -5,5 +5,6 @@ public enum Test
     Prime,
     Orange,
     Citrine,
+    Topaz,
     NotUsed
 }
