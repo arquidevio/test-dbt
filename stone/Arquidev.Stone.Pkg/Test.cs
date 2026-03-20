@@ -10,3 +10,5 @@ public enum Test
 }
 
 public enum StoneGrade { A, B, C }
+
+public enum StoneStatus { Active, Inactive, Archived }

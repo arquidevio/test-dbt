@@ -56,3 +56,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // consumes StoneGrade
 // timeout aligned
 // pagination support
+// StoneStatus integration

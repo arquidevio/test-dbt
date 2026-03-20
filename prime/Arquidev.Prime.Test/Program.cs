@@ -55,3 +55,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // StoneRegistry consumer
 // timeout aligned
 // pagination support
+// StoneStatus integration
