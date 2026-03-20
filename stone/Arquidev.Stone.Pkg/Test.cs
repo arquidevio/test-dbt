@@ -8,3 +8,5 @@ public enum Test
     Topaz,
     NotUsed
 }
+
+public enum StoneGrade { A, B, C }
