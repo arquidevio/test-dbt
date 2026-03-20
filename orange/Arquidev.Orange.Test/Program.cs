@@ -51,3 +51,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // health check stub
 // end of orange v2 setup
 // shared infra v1
+// correlationId middleware placeholder
