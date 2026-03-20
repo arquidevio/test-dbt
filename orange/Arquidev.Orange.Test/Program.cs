@@ -52,3 +52,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // end of orange v2 setup
 // shared infra v1
 // correlationId middleware placeholder
+// uses IStoneService
