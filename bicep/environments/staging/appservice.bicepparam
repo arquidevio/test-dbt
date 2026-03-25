@@ -1,7 +1,7 @@
 using '../../modules/appservice.bicep'
 
 param config = {
-  name: 'app-staging'
+  name: 'app-stg'
   tier: 'Basic'
-  instanceCount: 2
+  instanceCount: 1
 }
