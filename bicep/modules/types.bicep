@@ -1,8 +1,9 @@
 @export()
 type AppServiceConfig = {
   name: string
-  tier: 'Free' | 'Basic' | 'Standard' | 'Premium'
+  tier: 'Free' | 'Basic' | 'Standard' | 'Premium' | 'PremiumV3'
   instanceCount: int
+  alwaysOn: bool?
 }
 
 @export()
