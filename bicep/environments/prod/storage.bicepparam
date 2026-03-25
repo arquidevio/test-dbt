@@ -1,4 +1,4 @@
 using '../../modules/storage.bicep'
 
-param storageAccountName = 'stprodapp001'
+param storageAccountName = 'stprodapp002'
 param sku = 'Standard_GRS'
