@@ -16,7 +16,7 @@ resource sqlServer 'Microsoft.Sql/servers@2023-05-01-preview' = {
 resource database 'Microsoft.Sql/servers/databases@2023-05-01-preview' = {
   parent: sqlServer
   name: config.databaseName
-  properties: { }
+  properties: { collation: 'SQL_Latin1_General_CP1_CI_AS' }
   sku: { name: config.skuName }
 }
 

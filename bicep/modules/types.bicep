@@ -12,3 +12,9 @@ type DbConfig = {
   databaseName: string
   skuName: string
 }
+
+@export()
+type RetentionPolicy = {
+  days: int
+  enabled: bool
+}
