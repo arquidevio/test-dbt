@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "bd223dc80cd3b2a9aa4eb1725e41bdd4f8f5c653"
+    ],
+    "currentCommit": "b3d1f7aa98e83e4eeac3bcc39f63cabc67188379"
+  },
+  "changedDirs": {
+    "bicep/environments/prod": [
+      "bicep/environments/prod/storage.bicepparam"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/environments/prod",
+      "kind": "bicep",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/prod/storage.bicepparam",
+      "relativeDir": "bicep/environments/prod",
+      "dir": "prod",
+      "dirSlug": "prod"
+    }
+  ]
+}

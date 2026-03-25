@@ -1,0 +1,33 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "824edc79fa854cc2929caebae47965ded55492de"
+    ],
+    "currentCommit": "55711b96f85b95eee5f51e3c2eeeb4ca224f3fc2"
+  },
+  "changedDirs": {
+    "bicep/modules": [
+      "bicep/modules/network.bicep"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/environments/dev",
+      "kind": "bicep",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/dev/network.bicepparam",
+      "relativeDir": "bicep/environments/dev",
+      "dir": "dev",
+      "dirSlug": "dev"
+    },
+    {
+      "projectId": "bicep/environments/prod",
+      "kind": "bicep",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/prod/network.bicepparam",
+      "relativeDir": "bicep/environments/prod",
+      "dir": "prod",
+      "dirSlug": "prod"
+    }
+  ]
+}

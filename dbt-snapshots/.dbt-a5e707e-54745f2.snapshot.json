@@ -1,0 +1,34 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "a5e707e2b2cd62fcdad9ff0b73156eb893b8c138"
+    ],
+    "currentCommit": "54745f2f90432bb9afce26429e5db06a20fc8c92"
+  },
+  "changedDirs": {
+    "bicep/environments/dev": [
+      "bicep/environments/dev/appservice.bicepparam",
+      "bicep/environments/dev/storage.bicepparam"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/environments/dev",
+      "kind": "bicep",
+      "fileName": "appservice.bicepparam",
+      "relativePath": "bicep/environments/dev/appservice.bicepparam",
+      "relativeDir": "bicep/environments/dev",
+      "dir": "dev",
+      "dirSlug": "dev"
+    },
+    {
+      "projectId": "bicep/environments/dev",
+      "kind": "bicep",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/dev/storage.bicepparam",
+      "relativeDir": "bicep/environments/dev",
+      "dir": "dev",
+      "dirSlug": "dev"
+    }
+  ]
+}

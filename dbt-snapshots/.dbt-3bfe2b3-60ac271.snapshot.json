@@ -1,0 +1,61 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "3bfe2b30d24e05dce787ed9554eb9b1c02b4d272"
+    ],
+    "currentCommit": "60ac271fe26a68fe0d0eb59d61e05883fa4582ae"
+  },
+  "changedDirs": {
+    "bicep/modules": [
+      "bicep/modules/network.bicep",
+      "bicep/modules/storage.bicep"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/environments/dev",
+      "kind": "bicep",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/dev/network.bicepparam",
+      "relativeDir": "bicep/environments/dev",
+      "dir": "dev",
+      "dirSlug": "dev"
+    },
+    {
+      "projectId": "bicep/environments/dev",
+      "kind": "bicep",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/dev/storage.bicepparam",
+      "relativeDir": "bicep/environments/dev",
+      "dir": "dev",
+      "dirSlug": "dev"
+    },
+    {
+      "projectId": "bicep/environments/prod",
+      "kind": "bicep",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/prod/network.bicepparam",
+      "relativeDir": "bicep/environments/prod",
+      "dir": "prod",
+      "dirSlug": "prod"
+    },
+    {
+      "projectId": "bicep/environments/prod",
+      "kind": "bicep",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/prod/storage.bicepparam",
+      "relativeDir": "bicep/environments/prod",
+      "dir": "prod",
+      "dirSlug": "prod"
+    },
+    {
+      "projectId": "bicep/environments/staging",
+      "kind": "bicep",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/staging/storage.bicepparam",
+      "relativeDir": "bicep/environments/staging",
+      "dir": "staging",
+      "dirSlug": "staging"
+    }
+  ]
+}

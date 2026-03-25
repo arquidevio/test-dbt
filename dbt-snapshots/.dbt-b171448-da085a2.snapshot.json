@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "b171448dfe43a88042e6884950012229082d0aea"
+    ],
+    "currentCommit": "da085a2b3f6acf6aab03334959406714c7165bf2"
+  },
+  "changedDirs": {
+    "bicep/environments/staging": [
+      "bicep/environments/staging/appservice.bicepparam"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/environments/staging",
+      "kind": "bicep",
+      "fileName": "appservice.bicepparam",
+      "relativePath": "bicep/environments/staging/appservice.bicepparam",
+      "relativeDir": "bicep/environments/staging",
+      "dir": "staging",
+      "dirSlug": "staging"
+    }
+  ]
+}
