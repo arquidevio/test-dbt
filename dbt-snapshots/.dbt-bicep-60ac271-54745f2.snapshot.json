@@ -37,8 +37,8 @@
     {
       "projectId": "bicep/environments/dev",
       "kind": "bicep",
-      "fileName": "storage.bicepparam",
-      "relativePath": "bicep/environments/dev/storage.bicepparam",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/dev/network.bicepparam",
       "relativeDir": "bicep/environments/dev",
       "dir": "dev",
       "dirSlug": "dev"
@@ -46,8 +46,8 @@
     {
       "projectId": "bicep/environments/dev",
       "kind": "bicep",
-      "fileName": "network.bicepparam",
-      "relativePath": "bicep/environments/dev/network.bicepparam",
+      "fileName": "storage.bicepparam",
+      "relativePath": "bicep/environments/dev/storage.bicepparam",
       "relativeDir": "bicep/environments/dev",
       "dir": "dev",
       "dirSlug": "dev"

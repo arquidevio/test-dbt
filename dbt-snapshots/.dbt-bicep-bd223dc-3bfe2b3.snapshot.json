@@ -21,8 +21,8 @@
     {
       "projectId": "bicep/environments/dev",
       "kind": "bicep",
-      "fileName": "network.bicepparam",
-      "relativePath": "bicep/environments/dev/network.bicepparam",
+      "fileName": "appservice.bicepparam",
+      "relativePath": "bicep/environments/dev/appservice.bicepparam",
       "relativeDir": "bicep/environments/dev",
       "dir": "dev",
       "dirSlug": "dev"
@@ -30,11 +30,20 @@
     {
       "projectId": "bicep/environments/dev",
       "kind": "bicep",
-      "fileName": "appservice.bicepparam",
-      "relativePath": "bicep/environments/dev/appservice.bicepparam",
+      "fileName": "network.bicepparam",
+      "relativePath": "bicep/environments/dev/network.bicepparam",
       "relativeDir": "bicep/environments/dev",
       "dir": "dev",
       "dirSlug": "dev"
+    },
+    {
+      "projectId": "bicep/environments/prod",
+      "kind": "bicep",
+      "fileName": "appservice.bicepparam",
+      "relativePath": "bicep/environments/prod/appservice.bicepparam",
+      "relativeDir": "bicep/environments/prod",
+      "dir": "prod",
+      "dirSlug": "prod"
     },
     {
       "projectId": "bicep/environments/prod",
@@ -50,15 +59,6 @@
       "kind": "bicep",
       "fileName": "storage.bicepparam",
       "relativePath": "bicep/environments/prod/storage.bicepparam",
-      "relativeDir": "bicep/environments/prod",
-      "dir": "prod",
-      "dirSlug": "prod"
-    },
-    {
-      "projectId": "bicep/environments/prod",
-      "kind": "bicep",
-      "fileName": "appservice.bicepparam",
-      "relativePath": "bicep/environments/prod/appservice.bicepparam",
       "relativeDir": "bicep/environments/prod",
       "dir": "prod",
       "dirSlug": "prod"
