@@ -10,6 +10,7 @@ resource vnet 'Microsoft.Network/virtualNetworks@2023-05-01' = {
   location: location
   properties: {
     addressSpace: { addressPrefixes: [ addressPrefix ] }
+    tags: { environment: 'managed' }
     subnets: [ { name: 'default', properties: { addressPrefix: subnetPrefix } } ]
   }
 }

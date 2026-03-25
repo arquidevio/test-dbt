@@ -12,6 +12,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   location: location
   sku: { name: sku }
   kind: 'StorageV2'
+  tags: { environment: 'managed' }
   properties: { minimumTlsVersion: 'TLS1_3' }
 }
 
