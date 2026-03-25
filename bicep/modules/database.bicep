@@ -21,3 +21,5 @@ resource database 'Microsoft.Sql/servers/databases@2023-05-01-preview' = {
 }
 
 output serverId string = sqlServer.id
+
+// last-modified: 2026-03-25
