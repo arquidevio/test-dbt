@@ -1,7 +1,8 @@
-#load "../dbt/fsx/types.fsx"
-#load "../dbt/fsx/plan.fsx"
-#load "../dbt/fsx/dotnet/project.fsx"
-#load "../dbt/fsx/bicep/project.fsx"
+#r "paket: github arquidevio/dbt"
+
+#load "arquidevio/dbt/fsx/plan.fsx"
+#load "arquidevio/dbt/fsx/dotnet/project.fsx"
+#load "arquidevio/dbt/fsx/bicep/project.fsx"
 
 open Arquidev.Dbt
 
