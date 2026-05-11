@@ -1,0 +1,33 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "f4f5f1b8f49da52176763ef1ca0370e8db8583ab"
+    ],
+    "currentCommit": "b6f3621d4c9ed0665d32c326100170d2ba547b80"
+  },
+  "changedDirs": {
+    "bicep/services": [
+      "bicep/services/main.bicep"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "bicep/services",
+      "kind": "bicep",
+      "fileName": "deploy-dev.bicepparam",
+      "relativePath": "bicep/services/deploy-dev.bicepparam",
+      "relativeDir": "bicep/services",
+      "dir": "services",
+      "dirSlug": "services"
+    },
+    {
+      "projectId": "bicep/services",
+      "kind": "bicep",
+      "fileName": "deploy-prod.bicepparam",
+      "relativePath": "bicep/services/deploy-prod.bicepparam",
+      "relativeDir": "bicep/services",
+      "dir": "services",
+      "dirSlug": "services"
+    }
+  ]
+}
