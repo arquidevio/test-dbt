@@ -1,0 +1,14 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "3e25770ded35cbeb32b930d86be7248b732c1fd7"
+    ],
+    "currentCommit": "2e5e3d675901fd1a0f70c3b376a5676e29baca96"
+  },
+  "changedDirs": {
+    "kustomize/envs/dev": [
+      "kustomize/envs/dev/kustomization.yaml"
+    ]
+  },
+  "requiredProjects": []
+}

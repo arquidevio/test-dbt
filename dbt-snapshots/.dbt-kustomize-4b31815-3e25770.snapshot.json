@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "4b3181574dcea8364260d15afbaf1c520ad0cbf4"
+    ],
+    "currentCommit": "3e25770ded35cbeb32b930d86be7248b732c1fd7"
+  },
+  "changedDirs": {
+    "kustomize/envs/prod/patches": [
+      "kustomize/envs/prod/patches/ttl.yaml"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "kustomize/envs",
+      "kind": "kustomize",
+      "fileName": "prod",
+      "relativePath": "kustomize/envs/prod",
+      "relativeDir": "kustomize/envs",
+      "dir": "envs",
+      "dirSlug": "envs"
+    }
+  ]
+}
