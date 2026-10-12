@@ -1,0 +1,38 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "b5014efd649d766aacbcd2feaf0c8a6bfc8e3311"
+    ],
+    "currentCommit": "afe546b865815662375bfdaefb9496ae6e4e5d2b"
+  },
+  "changedDirs": {
+    "kustomize/components/cache": [
+      "kustomize/components/cache/configmap.yaml",
+      "kustomize/components/cache/kustomization.yaml"
+    ],
+    "kustomize/components/metrics": [
+      "kustomize/components/metrics/configmap.yaml",
+      "kustomize/components/metrics/kustomization.yaml"
+    ],
+    "kustomize/envs/dev": [
+      "kustomize/envs/dev/kustomization.yaml"
+    ],
+    "kustomize/envs/prod": [
+      "kustomize/envs/prod/kustomization.yaml"
+    ],
+    "kustomize/envs/prod/patches": [
+      "kustomize/envs/prod/patches/ttl.yaml"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "kustomize/envs",
+      "kind": "kustomize",
+      "fileName": "prod",
+      "relativePath": "kustomize/envs/prod",
+      "relativeDir": "kustomize/envs",
+      "dir": "envs",
+      "dirSlug": "envs"
+    }
+  ]
+}
