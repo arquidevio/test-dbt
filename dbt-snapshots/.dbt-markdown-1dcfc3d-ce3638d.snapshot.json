@@ -1,0 +1,14 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "1dcfc3d47fb3e2e2c9f7496551b80495a44901b4"
+    ],
+    "currentCommit": "ce3638d1c28da8979af0c1bfddf321d3660e6a9b"
+  },
+  "changedDirs": {
+    "markdown/src": [
+      "markdown/src/lib.fsx"
+    ]
+  },
+  "requiredProjects": []
+}
