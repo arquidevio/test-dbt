@@ -1,0 +1,24 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "8eb03cd86047ce9b685ae5e2aaabaf026634d231"
+    ],
+    "currentCommit": "b46ac4c2a502c250624a1f16a20438b728aded9f"
+  },
+  "changedDirs": {
+    "markdown/config": [
+      "markdown/config/settings.json"
+    ]
+  },
+  "requiredProjects": [
+    {
+      "projectId": "markdown-agents-md",
+      "kind": "markdown",
+      "fileName": "AGENTS.md",
+      "relativePath": "markdown/AGENTS.md",
+      "relativeDir": "markdown",
+      "dir": "markdown",
+      "dirSlug": "markdown"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 #load "arquidevio/dbt/fsx/dotnet/project.fsx"
 #load "arquidevio/dbt/fsx/bicep/project.fsx"
 #load "arquidevio/dbt/fsx/kustomize/project.fsx"
+#load "arquidevio/dbt/fsx/markdown/project.fsx"
 
 open Arquidev.Dbt
 
@@ -31,6 +32,14 @@ plan {
             discovery_root "kustomize"
             required_when (fun dir -> System.IO.Path.GetFileName(System.IO.Path.GetDirectoryName dir) = "envs")
             extend selector.defaults.kustomize.generic
+        }
+    }
+    profile {
+        id "markdown"
+        include_root_dir true
+        selector {
+            discovery_root "markdown"
+            extend selector.defaults.markdown.agents
         }
     }
 }

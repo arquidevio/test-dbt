@@ -1,0 +1,14 @@
+{
+  "changeSetRange": {
+    "baseCommits": [
+      "0c2838379e9cab8bc8e5144b4d2172a736eb7e39"
+    ],
+    "currentCommit": "2a599180255fbccd039cdcf23b2b04fc457fc557"
+  },
+  "changedDirs": {
+    "markdown": [
+      "markdown/AGENTS.md"
+    ]
+  },
+  "requiredProjects": []
+}
